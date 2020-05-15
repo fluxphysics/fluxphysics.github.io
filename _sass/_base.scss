@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+  font-size: $base-font-size;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+}
+
+section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  max-width: 550px;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $headings-font-weight;
+  margin-bottom: 0.667rem;
+}
+
+a {
+  color: $accent-color;
+  text-decoration: none;
+  &:hover {
+    color: $accent-color;
+    text-decoration: underline;
+  }
+}
+
+blockquote {
+  color: $grey-color;
+  border-left: 3px solid $light-grey;
+  padding-left: 1rem;
+  padding-right: 0.6rem;
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  @include for-big-phones-up {
+    font-size: 1.2rem;
+  }
+}
+
+hr {
+  margin: 1rem 0;
+  border: 0;
+  border-bottom: $border;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: block;
+}
+
+ul, ol {
+  margin-left: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.667rem;
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+pre,
+code {
+  font-size: 15px;
+  border: 1px solid $light-grey;
+  border-radius: 3px;
+  background-color: #eef;
+  margin-bottom: 1rem;
+}
+code {
+  padding: 1px 5px;
+}
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+iframe {
+  width: 100%;
+}
