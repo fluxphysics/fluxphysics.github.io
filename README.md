@@ -10,10 +10,10 @@ Contributions are welcome. Feel free to open a pull request with changes.
 
 Preview changes locally before opening a pull request. *Flux Physics* runs on [Jekyll](http://jekyllrb.com/). After forking or cloning the repository, perform the following steps to generate the site and preview it:
 
-- Make sure you have ruby installed on your computer. See https://www.ruby-lang.org/en/downloads/
-- `bundle install`
-- `bundle exec jekyll serve`
-- Point your browser at http://127.0.0.1:4000/
+- Make sure you have ruby installed on your computer. See https://www.ruby-lang.org/en/downloads/  
+- In your terminal `cd` to the local repo, and run `bundle install`
+- Next, run `bundle exec jekyll serve`
+- Point your browser to http://127.0.0.1:4000/
 
 ### Deployment
 

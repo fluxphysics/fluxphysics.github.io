@@ -1,15 +1,14 @@
 header {
   margin: 0 auto;
   padding: 1rem 0;
+  background: #24272d; // lighter option: #353a40
   a {
     display: block;
     &:first-child {
-      font-family: $base-font-family;
-      font-size: 2.5rem;
-      letter-spacing: 0.5px;
-      color: #f552ed;
+      font-size: 1.625rem;
+      font-weight: 900;
+      color: $brand-color;
       transition: 0.4s ease;
-      line-height: 0.75;
       &:hover {
         color: $brand-color;
         text-decoration: none;

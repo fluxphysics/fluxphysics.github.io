@@ -17,6 +17,7 @@ $base-font-size:   15px;
 $base-font-weight: 400;
 $small:            $base-font-size * 0.875;
 $headings-font-weight: 900;
+$headings-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 
 @import
   "breakpoints",
@@ -24,5 +25,6 @@ $headings-font-weight: 900;
   "classes",
   "header",
   "footer",
-  "post"
+  "post",
+  "exoplanets"
 ;
