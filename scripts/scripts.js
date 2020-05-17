@@ -1,6 +1,7 @@
 jQuery(document).ready(function($){
 
   stickyFooter();
+  keepRatio();
 
   // Add target="_blank" to all external links
   $("a[href^='http://']").attr("target","_blank");
