@@ -34,6 +34,6 @@ function stickyFooter() {
 
 // Get absolute width of iFrame and set height using known ratio (for Youtube it's 0.5625)
 function keepRatio() {
-  var iframeWidth = $( "iframe" ).width();
-  $('iframe').height(iframeWidth * 0.5625);
+  var iframeWidth = $( ".youtube" ).width();
+  $('.youtube').height(iframeWidth * 0.5625);
 }

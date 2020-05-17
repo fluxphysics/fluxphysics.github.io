@@ -26,4 +26,6 @@ Pull requests merged to the master branch are automatically deployed to the prod
 
 ### Exoplanets
 
-[Exoplanets](https://fluxphysics.github.io/exoplanets) is a resource for introducing the concept of exoplanets to KS4 students. The GCSE specs don't really cover the arrangement or scale of space very well, so the content is designed to segue into the vastness of our galaxy and how the scale is related to the techniques used to discover exoplanets. 
+[Exoplanets](https://fluxphysics.github.io/exoplanets) is a resource for introducing the concept of exoplanets to KS4 students. The GCSE specs don't really cover the arrangement or scale of space very well, so the content is designed to segue into the vastness of our galaxy and how the scale is related to the techniques used to discover exoplanets.  
+
+It's designed to go alongside a quiz but at the moment there's perhaps way too much content for one lesson? 
