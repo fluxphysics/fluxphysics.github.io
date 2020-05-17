@@ -17,6 +17,20 @@ article {
     margin-bottom: 1rem;
   }
   .post-content {
+    .post-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .post-col-half {
+        flex: 0 0 100%;
+        padding-bottom: 2rem;
+        @include for-tablet-landscape-up {
+         flex-basis: 48%;
+         padding-bottom: 0;
+        }
+      }
+    }
     p:last-child {
       margin-bottom: 0;
     }
