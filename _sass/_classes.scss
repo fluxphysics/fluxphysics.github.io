@@ -54,6 +54,15 @@
     font-size: 1rem;
   }
 }
+.note {
+  font-size: 15px;
+  border: 1px solid $light-grey;
+  border-radius: 3px;
+  background-color: #eef;
+  margin-bottom: 1rem;
+  padding: 1px 5px;
+  font-family: monospace;
+}
 .section-break {
   width: 20%;
   border: 0;
