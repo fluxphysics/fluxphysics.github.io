@@ -2,9 +2,13 @@
   .masthead {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/img/exoplanets/exobg.jpg'), #2d3647;
     background-size: cover;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
     color: rgba(255,255,255,0.6);
+    @include for-tablet-landscape-up {
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+    }
   }
   .wobble-bg, .transit-bg {
     padding-top: 1rem;

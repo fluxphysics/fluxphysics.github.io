@@ -29,12 +29,15 @@
       color: #fff;
       text-align: center;
       font-weight: 900;
-      font-size: 3rem;
+      font-size: 1.625rem;
       line-height: 1;
       border: 3px solid #fff;
       border-radius: 5px;
       padding: 1rem;
       margin: 5px 0;
+      @include for-tablet-landscape-up {
+       font-size: 3rem;
+      }
     }
     .superheader, .subheader {
       font-size: 1.2rem;
