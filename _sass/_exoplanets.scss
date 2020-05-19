@@ -10,18 +10,22 @@
       padding-bottom: 10rem;
     }
   }
-  .wobble-bg, .transit-bg {
+  .img-bg, .wobble-bg {
     padding-top: 1rem;
     padding-bottom: 1rem;
     img {
       margin: 0 auto;
     }
   }
+  .img-bg {
+    border: $border;
+    background: #f7f8fa;
+  }
   .wobble-bg {
     background: #333333;
   }
-  .transit-bg {
-    border: $border;
-    background: #f7f8fa;
+  #pixelmoon {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }

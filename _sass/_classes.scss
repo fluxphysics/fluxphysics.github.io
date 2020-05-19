@@ -58,13 +58,22 @@
   }
 }
 .note {
-  font-size: 15px;
   border: 1px solid $light-grey;
   border-radius: 3px;
   background-color: #eef;
   margin-bottom: 1rem;
-  padding: 1px 5px;
-  font-family: monospace;
+  padding: 5px 10px;
+  *:first-child {
+    margin-top: 0;
+  }
+  *:last-child {
+    margin-bottom: 0;
+  }
+}
+.big-note {
+  @extend .note;
+  margin-top: 2rem;
+  padding: 1rem;
 }
 .section-break {
   width: 20%;
@@ -133,10 +142,11 @@
       }
     }
   }
-  h3 {
-    margin-top: 2rem;
-  }
 }
 .youtube {
   max-width: 900px;
+}
+.footnote-ref {
+  vertical-align: super;
+  font-size: smaller;
 }
