@@ -6,4 +6,18 @@
     padding-bottom: 10rem;
     color: rgba(255,255,255,0.6);
   }
+  .wobble-bg, .transit-bg {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    img {
+      margin: 0 auto;
+    }
+  }
+  .wobble-bg {
+    background: #333333;
+  }
+  .transit-bg {
+    border: $border;
+    background: #f7f8fa;
+  }
 }

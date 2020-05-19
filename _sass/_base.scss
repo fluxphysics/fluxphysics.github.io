@@ -39,7 +39,7 @@ section {
 p {
   line-height: 1.8;
   margin-bottom: 1rem;
-  max-width: 550px;
+  max-width: $paragraph-width;
   font-size: 16px;
 }
 
@@ -97,6 +97,7 @@ img, video {
 ul, ol {
   margin-left: 1.3rem;
   margin-bottom: 1rem;
+  max-width: $paragraph-width;
 }
 
 li {
