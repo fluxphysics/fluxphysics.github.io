@@ -18,6 +18,12 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.img-bg {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: $border;
+  background: #f7f8fa;
+}
 .masthead {
   background: #23272d;
   color: #9da5b4;
@@ -145,6 +151,13 @@
 }
 .youtube {
   max-width: 900px;
+}
+.lazy {
+  background: #F1F1FA;
+  width: 100%;
+  height: 450px;
+  display: block;
+  border: 0;
 }
 .footnote-ref {
   vertical-align: super;
