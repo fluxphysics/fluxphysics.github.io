@@ -62,6 +62,25 @@ jQuery(document).ready(function($){
     window.addEventListener("orientationChange", lazyload);
   }
 
+  // Dynamically create table of contents
+  $(".contents").each(function(i){
+    var $contentslink = $(this).attr("id");
+    var $contentstext = $(this).find("h2").text();
+    $("#contents-list").append(
+      '<li><a href="#'+ $contentslink +'" class="smooth-scroll">'+ $contentstext +'</a></li>'
+    );
+  }).promise().done(function(){
+    // Build dynamic anchor links before invoking smooth scrolling
+    $('.smooth-scroll').on('click', function(){
+      $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+      }, 500);
+      // Retain browser back button functionality, a nice touch I think we'll all agree
+      document.location.hash = $(this).attr('href');
+      return false;
+    });
+  });
+
   // Dynamically number footnotes
   $(".footnote-ref").each(function(i){
     var $footnotelink = $(this).attr("data-footnote-link");
@@ -81,14 +100,6 @@ jQuery(document).ready(function($){
     $(this).html($fignum);
   });
 
-});
-
-// Smoooooth scrolling
-$('.smooth-scroll').click(function(){
-  $('html, body').animate({
-    scrollTop: $( $(this).attr('href') ).offset().top
-  }, 500);
-  return false;
 });
 
 // Trigger sizing functions on window resize

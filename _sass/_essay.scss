@@ -1,0 +1,38 @@
+.essay {
+  padding-top: 5rem;
+  .essay-header {
+    h2 {
+      // Something?
+    }
+    h2.subheader {
+      font-weight: normal;
+      font-size: 1.125rem;
+      color: #23272d;
+    }
+    hr {
+      @extend .heading-underline;
+      margin-bottom: 3rem;
+    }
+  }
+  .essay-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .essay-col-half {
+      flex: 0 0 100%;
+      padding-bottom: 2rem;
+      @include for-tablet-landscape-up {
+       flex-basis: 48%;
+       padding-bottom: 0;
+      }
+    }
+  }
+}
+.footnote-ref {
+  vertical-align: super;
+  font-size: smaller;
+}
+#footnote-list {
+  margin-bottom: 0;
+}

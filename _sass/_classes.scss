@@ -34,7 +34,7 @@
     h1 {
       color: #fff;
       text-align: center;
-      font-weight: 900;
+      font-weight: 700;
       font-size: 1.625rem;
       line-height: 1;
       border: 3px solid #fff;
@@ -117,37 +117,6 @@
   width: 4rem;
   border-bottom: 3px solid #23272d;
 }
-.essay {
-  padding-top: 5rem;
-  .essay-header {
-    h2 {
-      // Something?
-    }
-    h2.subheader {
-      font-weight: normal;
-      font-size: 1.125rem;
-      color: #23272d;
-    }
-    hr {
-      @extend .heading-underline;
-      margin-bottom: 3rem;
-    }
-  }
-  .essay-row {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    .essay-col-half {
-      flex: 0 0 100%;
-      padding-bottom: 2rem;
-      @include for-tablet-landscape-up {
-       flex-basis: 48%;
-       padding-bottom: 0;
-      }
-    }
-  }
-}
 .youtube {
   max-width: 900px;
 }
@@ -158,7 +127,29 @@
   display: block;
   border: 0;
 }
-.footnote-ref {
-  vertical-align: super;
-  font-size: smaller;
+.suggestions {
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
+  @extend .flex;
+  align-items: stretch;
+  .suggestion {
+    flex: 0 0 100%;
+    border-top: $border;
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
+    &:last-child {
+      border-bottom: $border;
+    }
+    @include for-tablet-landscape-up {
+      flex-basis: 50%;
+      text-align: center;
+      &:first-child {
+        border-right: $border;
+        border-bottom: $border;
+      }
+    }
+    p {
+      margin: 0;
+    }
+  }
 }
