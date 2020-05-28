@@ -29,6 +29,9 @@ Pull requests merged to the master branch are automatically deployed to the prod
 - [ ] Fix header & navigation
 – [ ] Add Lato as font option
 - [ ] Add next/prev./rand. to bottom of pages
+– [ ] Refit essays as a layout with `.yaml` variables for masthead and next/prev/rand  
+- [ ] Use JS to handle contents of essays, based on `IDs` of `sections` with new `.contents` class. Recommend use of `data-*`. Example [`liquid`](https://github.com/samjamead/samjamead.github.io/blob/master/_layouts/post.html).
 
 **Exoplanets**  
+
 – [ ] Put questions into a digital quiz format
