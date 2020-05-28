@@ -1,3 +1,4 @@
+
 # fluxphysics.github.io
 
 [Flux Physics](https://fluxphysics.github.io) is a website dedicated to teaching resources for pre-university physics.
@@ -26,15 +27,14 @@ Pull requests merged to the master branch are automatically deployed to the prod
 - [ ] Upgrade analytics to Google Tag Manager to track events
 
 **Sitewide**
-- [ ] Fix header & navigation  
-– [x] _~Add Lato as font option~_  
+- [ ] Fix header & navigation   
+- [x] _~Add Lato as font option~_  
 - [ ] Add next/prev./rand. to bottom of pages
-– [x] _~Refit essays as a layout with `.yaml` variables for masthead and next/prev/rand~_  
+- [x] _~Refit essays as a layout with `.yaml` variables for masthead and next/prev/rand~_  
 - [x] _~Use JS to handle contents of essays, based on `IDs` of `sections` with new `.contents` class.~_  
 - [ ] Three column layout for big screens [allow contents to be left edge and fixed]  
 - [ ] Implement collections pages  
 - [ ] Fixed navigation for contents on big screens; back to top button on mobile  
 
-**Exoplanets**    
-
-– [ ] Put questions into a digital quiz format  
+**Exoplanets**
+- [ ] Put questions into a digital quiz format  
