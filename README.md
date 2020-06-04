@@ -37,4 +37,4 @@ Pull requests merged to the master branch are automatically deployed to the prod
 - [ ] Fixed navigation for contents on big screens; back to top button on mobile  
 
 **Exoplanets**
-- [ ] Put questions into a digital quiz format  
+- [ ] Put questions into a digital quiz format, for example like [The Guardian](https://www.theguardian.com/sport/2020/may/19/sports-quiz-how-much-do-you-know-about-michael-jordan)
